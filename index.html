@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container nav-container">
+        <div class="logo">☕ Coffee Shop</div>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About Us</a>
+          <!-- <a href="#blog">Blog</a> -->
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" title="Toggle Theme">
+            🌙
+          </button>
+          <button class="btn-primary" id="open-signin">Sign In</button>
+          <button class="mobile-menu-btn">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <h1>Coffee The Best For You</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas sed
+          vitae, vitae id at eget.
+        </p>
+        <button class="btn-primary">View Menu</button>
+      </div>
+      <div class="hero-image">
+        <!-- Using placeholder image -->
+        <img
+          src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?q=80&w=800&auto=format&fit=crop"
+          alt="Coffee Cups"
+        />
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products container" id="menu">
+      <h2 class="section-title">Most Popular Coffee</h2>
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1551030173-122aabc4489c?q=80&w=400&auto=format&fit=crop"
+            alt="Americano"
+          />
+          <h3>Americano</h3>
+          <p class="price">$12.00</p>
+          <button class="btn-add">Add to Cart</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=400&auto=format&fit=crop"
+            alt="Cappuccino"
+          />
+          <h3>Cappuccino</h3>
+          <p class="price">$14.00</p>
+          <button class="btn-add">Add to Cart</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=400&auto=format&fit=crop"
+            alt="Latte"
+          />
+          <h3>Latte</h3>
+          <p class="price">$13.00</p>
+          <button class="btn-add">Add to Cart</button>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=400&auto=format&fit=crop"
+            alt="Espresso"
+          />
+          <h3>Espresso</h3>
+          <p class="price">$10.00</p>
+          <button class="btn-add">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">Our Customer Testimonials</h2>
+        <div class="testimonial-card">
+          <img
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+            alt="User"
+          />
+          <h3>Shane Lee</h3>
+          <div class="stars">★★★★★</div>
+          <p>
+            "I've tried several coffee apps, but this one stands out for its
+            simplicity and efficiency. It has streamlined my coffee routine. No
+            more waiting in line or dealing with complicated orders."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq container" id="about">
+      <h2 class="section-title">Question? Look here.</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What payment methods does coffee app accept? <span>+</span>
+        </button>
+        <div class="faq-answer">
+          We accept all major credit cards (Visa, MasterCard, American Express),
+          PayPal, and Apple/Google Pay.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          How can I save my favorite coffee as bookmarks? <span>+</span>
+        </button>
+        <div class="faq-answer">
+          Simply click the heart icon on any coffee product to add it to your
+          favorites list for quick ordering later.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What are the benefits of using coffee shop app? <span>+</span>
+        </button>
+        <div class="faq-answer">
+          Skip the line, earn loyalty points with every purchase, get exclusive
+          discounts, and customize your order exactly how you like it.
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Invite a friend</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>Email: info@coffeeshop.com</li>
+              <li>Phone: +1 234 567 890</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Subscribe Our Newsletter</h4>
+            <form
+              class="newsletter-form"
+              onsubmit="event.preventDefault(); alert('Subscribed!');"
+            >
+              <input type="email" placeholder="Enter your email" required />
+              <button type="submit">➤</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 Coffee Shop. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sign In Modal -->
+    <div class="modal-overlay" id="signin-modal">
+      <div class="modal-content">
+        <button class="close-modal" id="close-signin">&times;</button>
+        <h2>Welcome Back</h2>
+        <form
+          onsubmit="event.preventDefault(); alert('Signed In Successfully!'); document.getElementById('signin-modal').classList.remove('active');"
+        >
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" placeholder="••••••••" required />
+          </div>
+          <button type="submit" class="btn-primary">Sign In</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+      // --- Theme Toggle Logic ---
+      const themeToggleBtn = document.getElementById("theme-toggle");
+      const htmlElement = document.documentElement;
+
+      // Check for saved theme
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme) {
+        htmlElement.setAttribute("data-theme", savedTheme);
+        themeToggleBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+      }
+
+      themeToggleBtn.addEventListener("click", () => {
+        const currentTheme = htmlElement.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+
+        htmlElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+        themeToggleBtn.textContent = newTheme === "dark" ? "☀️" : "🌙";
+      });
+
+      // --- FAQ Accordion Logic ---
+      const faqQuestions = document.querySelectorAll(".faq-question");
+
+      faqQuestions.forEach((question) => {
+        question.addEventListener("click", () => {
+          const parent = question.parentElement;
+
+          // Close all others
+          document.querySelectorAll(".faq-item").forEach((item) => {
+            if (item !== parent) {
+              item.classList.remove("active");
+              item.querySelector("span").textContent = "+";
+            }
+          });
+
+          // Toggle current
+          parent.classList.toggle("active");
+          const span = question.querySelector("span");
+          if (parent.classList.contains("active")) {
+            span.textContent = "−";
+          } else {
+            span.textContent = "+";
+          }
+        });
+      });
+
+      // --- Sign In Modal Logic ---
+      const modal = document.getElementById("signin-modal");
+      const openBtn = document.getElementById("open-signin");
+      const closeBtn = document.getElementById("close-signin");
+
+      openBtn.addEventListener("click", () => {
+        modal.classList.add("active");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        modal.classList.remove("active");
+      });
+
+      // Close modal when clicking outside
+      window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          modal.classList.remove("active");
+        }
+      });
+    </script>
+  </body>
+</html>
